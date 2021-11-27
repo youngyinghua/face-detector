@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  margin-top: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.boundingbox {
+  position: absolute;
+  border: 2px solid rgb(57, 101, 219);
+}
